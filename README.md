@@ -15,7 +15,14 @@ O projeto foi criado com base na prática da aula 1, disponível em:
 ## Materiais de apoio
 Não estarei colocando os vídeos diretamente da semana da Imersão Java já que creio que eles serão tirados do ar em breve. Contudo, alguns links e materiais extras foram consultados durante o acompanhamento desta aula.
 
-`(em desenvolvimento)`
+### Package javax.imageio (documentação)
+* Link: https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/imageio/package-summary.html
+
+### Class BufferedImage (documentação)
+* Link: https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/image/BufferedImage.html
+
+### Class Graphics2D (documentação)
+* Link: https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/image/BufferedImage.html
 
 ## Desafios da aula:
 `(em desenvolvimento)`
