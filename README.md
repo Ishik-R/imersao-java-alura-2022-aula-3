@@ -1,16 +1,17 @@
 # Imersão Java - AULA 02 - gerando figurinhas para o WhatsApp
 Este projeto é parte das atividades da semana de Imersão em Java, oferecida gratuitamente pela Alura entre os dias 18/07/2022 até 22/07/2022.
 
+## O que este projeto faz?
+Este projeto pretende criar imagens .png baseadas nos posters dos filmes reconhecidos da lista do IMDB. A classe **"GeradoraDeFigurinhas"** está responsável por esta função. Cada nova imagem gerada é chamada de "figurinha" já que a proposta é que elas sejam utilizadas como figurinhas em aplicativos como o WhatsApp.
+
 ## Estrutura do projeto
 O projeto foi criado com base na prática da aula 1, disponível em:
 
 * Link: https://github.com/Ishik-R/imersao-java-alura-2022-aula-1
 
-`entrada` : pasta que contêm os elementos de processamento das figurinhas.
+E as figurinhas produzidas estão localizadas na pasta "saída":
 
 `saida` : pasta que contém as figurinhas processadas pelo programa.
-
-⚠️ Nesta versão do primeiro commit, a classe **GeradoraDeFigurinhas** está ainda sendo desenvolvida e testada.
 
 ## Materiais de apoio
 Não estarei colocando os vídeos diretamente da semana da Imersão Java já que creio que eles serão tirados do ar em breve. Contudo, alguns links e materiais extras foram consultados durante o acompanhamento desta aula.
