@@ -12,12 +12,6 @@ public class App {
         // Realizar a conexão HTTP e reconhecer o arquivo JSON, buscando o top 250 filmes do imDb.
         String url = "https://alura-filmes.herokuapp.com/conteudos";
 
-        // Link alternativo: conexão HTTP para os filmes mais populares.
-        // String url = "https://api.mocki.io/v2/549a5d8b/MostPopularMovies";
-
-        // Link alternativo: conexão HTTP para as séries mais populares.
-        //String url = "https://api.mocki.io/v2/549a5d8b/MostPopularTVs";
-
         URI endereco = URI.create(url);
         var client = HttpClient.newHttpClient();
         var request = HttpRequest.newBuilder(endereco).GET().build();
@@ -33,7 +27,9 @@ public class App {
             System.out.println("#" + filme.get("rank") + ": \u001b[1m" + filme.get("title"));
             System.out.println("\u001b[mPoster: " + filme.get("image"));
             System.out.println("Classificação: " + filme.get("imDbRating"));
-            System.out.println("\u2B50");
+            for (int i=0; i<Math.round(Float.parseFloat(filme.get("imDbRating"))); i++) {
+                System.out.print("\u2B50");
+            }
             System.out.println();
         }
 
