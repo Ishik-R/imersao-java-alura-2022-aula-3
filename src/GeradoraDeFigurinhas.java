@@ -20,7 +20,8 @@ public class GeradoraDeFigurinhas {
         int altura = imagemOriginal.getHeight();
         int novaAltura = altura + 220;
 
-        System.out.println("Original: altura - " + altura + "px / largura - " + largura + "px");
+        // SAÍDA OPCIONAL PARA VERIFICAÇÃO DO TAMANHO DOS POSTERS
+        //System.out.println("Original: altura - " + altura + "px / largura - " + largura + "px");
 
         BufferedImage novaImagem = new BufferedImage(largura, novaAltura, BufferedImage.TRANSLUCENT);
 
@@ -58,8 +59,8 @@ public class GeradoraDeFigurinhas {
         graphics.drawString(textoAvaliacao, (largura - medidasFonte.stringWidth(textoAvaliacao))/2, novaAltura - 100);
 
         // escrever a imagem em um novo arquivo
-        String nomeArquivo = titulo.replace(":", "-") + ".png";
-        ImageIO.write(novaImagem, "png", new File(nomeArquivo));
+        String saidaArquivo = "saida/" + titulo.replace(":", "-") + ".png";
+        ImageIO.write(novaImagem, "png", new File(saidaArquivo));
     }
 
 }
